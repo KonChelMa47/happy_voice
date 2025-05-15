@@ -1,0 +1,4 @@
+string text
+bool wait_until_done
+---
+bool success

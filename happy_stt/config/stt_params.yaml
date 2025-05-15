@@ -1,0 +1,9 @@
+speech_to_text_node:
+  ros__parameters:
+    device_index: 0
+    samplerate: 44100
+    baseline_duration: 3.0        # 長めに平均を取る
+    margin_ratio: 0.05            # 低めのしきい値
+    silence_duration: 2.0
+    max_duration: 15.0
+    chunk_duration: 0.2
